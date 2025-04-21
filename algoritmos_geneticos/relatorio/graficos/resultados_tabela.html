@@ -1,0 +1,168 @@
+
+    <html>
+    <head>
+        <title>Resultados dos Experimentos com Algoritmos Genéticos</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #2c3e50; }
+            h2 { color: #3498db; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+        </style>
+    </head>
+    <body>
+        <h1>Resultados dos Experimentos com Algoritmos Genéticos</h1>
+        
+        <h2>1. Reconhecimento de Padrões</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Configuração</th>
+      <th>Gerações Médias</th>
+      <th>Desvio Padrão</th>
+      <th>Tempo Médio (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CR=0.6, MR=0.01</td>
+      <td>6.80</td>
+      <td>1.87</td>
+      <td>0.0131</td>
+    </tr>
+    <tr>
+      <td>CR=0.7, MR=0.01</td>
+      <td>4.87</td>
+      <td>2.28</td>
+      <td>0.0097</td>
+    </tr>
+    <tr>
+      <td>CR=0.8, MR=0.01</td>
+      <td>5.10</td>
+      <td>2.37</td>
+      <td>0.0101</td>
+    </tr>
+    <tr>
+      <td>CR=0.9, MR=0.01</td>
+      <td>5.80</td>
+      <td>2.88</td>
+      <td>0.0112</td>
+    </tr>
+    <tr>
+      <td>Apenas Crossover</td>
+      <td>5.03</td>
+      <td>3.43</td>
+      <td>0.0103</td>
+    </tr>
+    <tr>
+      <td>Apenas Mutação</td>
+      <td>6.60</td>
+      <td>4.22</td>
+      <td>0.0122</td>
+    </tr>
+    <tr>
+      <td>Ambos</td>
+      <td>6.90</td>
+      <td>3.38</td>
+      <td>0.0131</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>2. Maximização de Função</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Algoritmo</th>
+      <th>Valor g(x)</th>
+      <th>Desvio Padrão</th>
+      <th>Iterações</th>
+      <th>Tempo (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Algoritmo Genético</td>
+      <td>1.00000</td>
+      <td>0.000000</td>
+      <td>1000.0</td>
+      <td>1.9595</td>
+    </tr>
+    <tr>
+      <td>Subida da Colina</td>
+      <td>0.75205</td>
+      <td>0.230197</td>
+      <td>206.9</td>
+      <td>0.0043</td>
+    </tr>
+    <tr>
+      <td>Recozimento Simulado</td>
+      <td>0.84181</td>
+      <td>0.165586</td>
+      <td>449.0</td>
+      <td>0.0022</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>3. Minimização da Função de Rosenbrock</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Configuração</th>
+      <th>Fitness</th>
+      <th>Valor x</th>
+      <th>Valor y</th>
+      <th>Tempo (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Com Elitismo</td>
+      <td>0.999976</td>
+      <td>1.002152</td>
+      <td>1.004379</td>
+      <td>6.7188</td>
+    </tr>
+    <tr>
+      <td>Sem Elitismo</td>
+      <td>0.999465</td>
+      <td>1.005844</td>
+      <td>1.011765</td>
+      <td>6.9528</td>
+    </tr>
+    <tr>
+      <td>Pop=20</td>
+      <td>0.892605</td>
+      <td>0.805707</td>
+      <td>0.819257</td>
+      <td>0.9752</td>
+    </tr>
+    <tr>
+      <td>Pop=50</td>
+      <td>0.949882</td>
+      <td>0.896071</td>
+      <td>0.892317</td>
+      <td>3.0590</td>
+    </tr>
+    <tr>
+      <td>Pop=100</td>
+      <td>0.999973</td>
+      <td>1.001755</td>
+      <td>1.003616</td>
+      <td>6.9266</td>
+    </tr>
+    <tr>
+      <td>Pop=200</td>
+      <td>0.999991</td>
+      <td>0.998489</td>
+      <td>0.997055</td>
+      <td>18.3566</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
