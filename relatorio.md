@@ -83,7 +83,7 @@ A **Figura 5** demonstra a convergência do algoritmo genético ao longo das ger
 
 2. #### Considere o alvo como desconhecido e registre os maiores valores obtidos para g(x).
 
-Na **Figura 6** podemos observar uma convergência muito rápida, nas primeiras 5-6 gerações o GA já sobe de um valor inicial (em torno de `0.998`) até aproximadamente `0.9998`. Isso demonstra que, com uma população pequena (`50`) e resolução de 10 bits, é possível encontrar rapidamente regiões de alto fitnes.
+Na **Figura 6** podemos observar uma convergência muito rápida, nas primeiras 5-6 gerações o Algoritmo Genético já sobe de um valor inicial (em torno de `0.998`) até aproximadamente `0.9998`. Isso demonstra que, com uma população pequena (`50`) e resolução de 10 bits, é possível encontrar rapidamente regiões de alto fitnes.
 
 <figure>
   <img src="graficos/exercicio-2-imagem-3.png" alt="Registro dos maiores valores de g(x)" />
@@ -92,12 +92,25 @@ Na **Figura 6** podemos observar uma convergência muito rápida, nas primeiras 
 
 3. #### Compare os resultados com os obtidos anteriormente utilizando os algoritmos de Subida da Colina e Recozimento Simulado, levando em conta tanto os valores de g(x) quanto os tempos de execução.
 
+Pela Figura 7 pode-se observar que o Algoritmo Genético e recozimento simulado chegam muito perto de $g(x)=1$, ou seja, encontraram o pico global da função. Subida da colina por outro lado, não consegue encontrar o pico global.
+
+Em questão de custo computacional, a Figura 7 ainda demonstra que o Algoritmo Genético, embora igualmente preciso ao recozimento, é muito mais pesado em termos de tempo de execução. O recozimento simulado, por outro lado, é rápido e preciso. Para esse problema, o recozimento simulado é a melhor opção.
+
 <figure>
   <img src="graficos/exercicio-2-imagem-4.png" alt="Comparação dos Métodos de Otimização" />
   <figcaption>Figura 7: Comparação dos Métodos de Otimização</figcaption>
 </figure>
 
 4. #### Explore diferentes esquemas de seleção (por exemplo, roleta, torneio e amostragem universal estocástica).
+
+A **Figura 8** mostra a comparação entre os métodos de seleção: roleta (Roulette), torneio (tournament) e amostragem universal estocástica (SUS). O método de torneio se destacou, apresentando uma convergência mais rápida e consistente em comparação com os outros métodos.
+
+O método de Roulette e SUS apresentou uma *"desconvergência"* em algumas execuções, o que pode ser atribuído à suas naturezas estocástica, onde indivíduos com fitness mais baixo podem ser selecionados.
+
+<figure>
+  <img src="graficos/exercicio-2-imagem-5.png" alt="Comparação dos Métodos de Seleção" />
+  <figcaption>Figura 8: Comparação dos Métodos de Seleção</figcaption>
+</figure>
 
 ## Problema 3 - Minimização de Função (Rosenbrock)
 
