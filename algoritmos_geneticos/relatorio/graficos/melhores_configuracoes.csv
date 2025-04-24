@@ -1,4 +1,0 @@
-Problema,Melhor Configuração,Gerações Médias,Tempo Médio (s),Qualidade da Solução
-Reconhecimento de Padrões,"CR=0.7, MR=0.01",4.87,0.0097,1.0
-Maximização de Função,Roleta/Torneio/SUS,1000.0,1.9595,1.0
-Minimização de Rosenbrock,"Pop=200, Com Elitismo",1000.0,18.3566,0.999991
