@@ -115,3 +115,41 @@ O método de Roulette e SUS apresentou uma *"desconvergência"* em algumas execu
 ## Problema 3 - Minimização de Função (Rosenbrock)
 
 ### Descrição do problema
+
+Implemente um algoritmo genético para minimizar a seguinte função (geralmente conhecida como função de Rosenbrock):
+
+$$
+f(x, y) \;=\; (1 - x)^2 \;+\; 100\,\bigl(y - x^2\bigr)^2,
+\quad x, y \in [-10, +10]
+$$
+
+A função de Rosenbrock é uma função não convexa frequentemente utilizada como um teste para algoritmos de otimização. O gráfico da função é mostrado na **Figura 9**.
+
+<figure>
+  <img src="graficos/exercicio-3-imagem-1.png" alt="Superfície da Função Rosenbrock" />
+  <figcaption>Figura 8: Superfície da Função Rosenbrock</figcaption>
+</figure>
+
+### Tarefas
+
+1. #### Considere o alvo como desconhecido e registre os menores valores obtidos para f(x, y).
+
+A **Figura 9** mostra uma queda brusca inicial entre as gerações 0 e 10. A população parte de valores de $(f)$ muito altos (até ~55) e, nas primeiras gerações já encontramos o "vale" do Rosenbrock (região próxima a \((1,1)\)). Em seguida, observa-se o valor mínimo descendo para em torno de `0.5` e `0.1`. O Algoritmo Genético já está nos arredores do ótimo. A curva vai achatando, mostrando que a pressão seletiva está refinando a solução, mas o progresso é lento.
+
+A **Figura 9** utilizou uma população de 200 indivíduos, taxa de crossover de `0.9` e taxa de mutação de `0.05`. O algoritmo convergiu em média entre `10` e `20` gerações.
+
+<figure>
+  <img src="graficos/exercicio-3-imagem-2.png" alt="Convergência do Algoritmo Genético" />
+  <figcaption>Figura 9: Convergência do Algoritmo Genético</figcaption>
+</figure>
+
+2. #### Teste diferentes tamanhos de população, experimentando versões sem elitismo e com elitismo (com diferentes quantidades de indivíduos).
+
+A **Figura 10** mostra a convergência com diferentes populações e elitismos. Percebe-se que a introdução de elitismo (`2`, `5` e `10` indivíduos) acelera a convergência, especialmente em populações maiores. O elitismo ajuda a preservar boas soluções, evitando que elas sejam perdidas em gerações subsequentes. A população de `200` indivíduos com `10` elitistas convergiu mais rapidamente, atingindo o mínimo global em menos de `5` gerações.
+
+Foi utilizado uma taxa de crossover de `0.9` e taxa de mutação de `0.05`.
+
+<figure>
+  <img src="graficos/exercicio-3-imagem-3.png" alt="Convergência Com diferentes populações e elitismos" />
+  <figcaption>Figura 10: Convergência Com diferentes populações e elitismos</figcaption>
+</figure>
