@@ -1,12 +1,14 @@
 # Relatório: Algoritmos Genéticos
 
+Aluno: Henrique Ângelo Vieira Fonseca
+
 ## Introdução
 
-Os algoritmos genéticos são métodos de busca e otimização baseados nos princípios de seleção natural e evolução. Muito utilizados na ciência da computação e investigação operacional para resolver problemas comuns complexos que os métodos clássicos não são eficientes. Este relatório tem como objetivo demonstrar os resultados da implementação de tais algoritmos na resolução de um problema.
+Os algoritmos genéticos são métodos de busca e otimização baseados nos princípios de seleção natural e evolução. Muito utilizados na ciência da computação e investigação operacional para resolver problemas comuns complexos que os métodos clássicos não são eficientes. Este relatório tem como objetivo demonstrar os resultados da implementação de tais algoritmos na resolução de alguns problemas.
 
 Todas as implementações foram feitas em Python, utilizando as bibliotecas comuns como Numpy e Matplotlib. Para cada problema, diferentes experimentos com parâmetros foram feitos: crossover, mutação, população e assim por diante.
 
-Os códigos podem sere encontrados nos arquivos `exercicio-1.ipynb`, `exercicio-2.ipynb` e `exercicio-3.ipynb`, e os gráficos gerados estão na pasta `graficos/`.
+Os códigos podem sere encontrados nos arquivos `exercicio-1.ipynb`, `exercicio-2.ipynb` e `exercicio-3.ipynb` dentro da pasta `codigos/`, e os gráficos gerados estão na pasta `graficos/`.
 
 ## Problema 1 - Reconhecimento de padrões.
 
