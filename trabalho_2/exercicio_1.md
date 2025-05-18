@@ -1,3 +1,5 @@
+Todos os exercicios foram feitos em Python, utilizando as bibliotecas `numpy`, `pandas`, `matplotlib` e `sklearn`. Os arquivos de código fonte estão disponíveis no repositório do GitHub e no `.zip`, e os resultados dos experimentos estão documentados neste relatório.
+
 # Exercício 1: Perceptron para Classificação do Dataset Iris
 
 ## Introdução
@@ -8,7 +10,7 @@ Conforme o enunciado, o objetivo é treinar uma rede Perceptron para classificar
 
 ## Implementação
 
-A implementação pode ser encontrada no arquivo `exercicio_1.ipynb`. O código foi feito usando as bibliotecas `numpy`, `pandas`, `matplotlib` e `sklearn`. O dataset Iris foi carregado usando a biblioteca `sklearn.datasets`. A normalização dos dados foi feita utilizando o método `StandardScaler` da biblioteca `sklearn.preprocessing`.
+A implementação pode ser encontrada no arquivo `exercicio_1.ipynb`. O dataset Iris foi carregado usando a biblioteca `sklearn.datasets`. A normalização dos dados foi feita utilizando o método `StandardScaler` da biblioteca `sklearn.preprocessing`.
 
 ## Metodologia
 
