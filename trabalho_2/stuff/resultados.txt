@@ -1,0 +1,29 @@
+=== Resultados do Experimento ===
+
+Melhor configuração:
+Normalização: Sim
+Taxa de aprendizado: 0.01
+Escala de inicialização: 0.1
+Épocas: 200
+
+Acurácias:
+Treinamento: 0.8077
+Validação: 0.9130
+Teste: 0.8261
+
+Matrizes de Confusão:
+Treinamento:
+[[34  0  0]
+ [ 0 16 18]
+ [ 0  2 34]]
+
+Validação:
+[[8 0 0]
+ [0 5 2]
+ [0 0 8]]
+
+Teste:
+[[8 0 0]
+ [0 5 4]
+ [0 0 6]]
+

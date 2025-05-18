@@ -1,0 +1,76 @@
+         Universidade Estadual Paulista "Júlio de Mesquita Filho" (UNESP)
+              Programa de Pós-Graduação em Ciência da Computação
+                  Disciplina: Computação Inspirada pela Natureza
+         Prof.: Fabricio Breve – Trabalho nº 2 – Data de Entrega: 22/05/2024
+
+
+Instruções Gerais:
+1) Qualquer linguagem de programação e ambiente de desenvolvimento podem ser
+   utilizados. Porém o código-fonte deve ser devidamente comentado.
+
+2) O relatório deve ser entregue em formato PDF, através de upload no Google Classroom.
+   Deixe o PDF separado dos códigos (não comprima o PDF em um arquivo .zip ou similar).
+
+3) Não é necessário anexar códigos-fontes no PDF. Os códigos-fontes devem ser postados em
+   um ou mais arquivos separados no Google Classroom. Estes podem ser compactados (.zip
+   ou similar).
+
+
+Exercício 1: Iris Data Set
+Faça o download do conjunto de dados Iris do UCI Machine Learning Repository:
+
+https://archive.ics.uci.edu/dataset/53/iris
+
+Este conjunto de dados tem 150 itens, sendo 50 de cada uma de
+três espécies da flor Iris, mostrada na foto ao lado.
+
+As três espécies são I. setosa, I. virginica e I. versicolor
+
+Para cada item foram obtidos quatro atributos: comprimento e
+largura da sépala e da pétala.
+
+Você deve treinar uma rede Perceptron para reconhecer as três
+diferentes classes.
+
+Divida aleatoriamente os exemplos em subconjuntos de treinamento, validação e testes (por
+exemplo: 70%/15%/15%).
+
+Teste diferentes pesos de inicialização e taxas de aprendizado para encontrar os melhores
+valores. Lembre-se de repetir o experimento diversas vezes com cada configuração. Verifique
+também se normalizar o conjunto de dados previamente melhora ou não os resultados.
+
+Entregue o relatório documentando seus passos, não se esqueça de documentar a taxa de
+aprendizado, as taxas de acerto ou erro. Inclua também um gráfico do Erro Médio Quadrático
+e/ou Entropia Cruzada Categórica Média mostrando a convergência do algoritmo, e outros
+gráficos e/ou tabelas que julgar relevantes.
+Mostre uma tabela com as matrizes de confusão para cada subconjunto separadamente:
+treinamento, validação e teste. O que você pode concluir desses dados?
+
+
+Exercício 2: Wine Data Set
+Faça o download do conjunto de dados Wine do UCI Machine
+Learning Repository:
+
+https://archive.ics.uci.edu/dataset/109/wine
+
+Identifique quais são os atributos e classes do problema e
+coloque-os em seu relatório.
+
+Realize experimentos similares aos realizados com o conjunto de dados Iris, também
+documentando os procedimentos e resultados adequadamente.
+
+
+Exercício 3: Escolha seu Conjunto de Dados e Redes Neurais
+Escolha um outro conjunto de dados que esteja disponível publicamente. Realize
+experimentos de classificação ou qualquer outra tarefa de aprendizado de máquina com
+diferentes arquiteturas de redes neurais.
+
+Qualquer rede neural pode ser utilizada, incluindo redes profundas. Comparações entre
+diferentes arquiteturas de redes e/ou configurações de hiperparâmetros são desejáveis.
+
+Não se esqueça de relatar as arquiteturas e as configurações de hiperparâmetros que foram
+utilizadas para garantir reprodutibilidade.
+
+Toolboxes e frameworks como TensorFlow, PyTorch, Keras, MXNet, etc. podem ser utilizados
+neste exercício.
+
