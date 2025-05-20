@@ -1,0 +1,46 @@
+=== Resultados dos Experimentos com Redes Neurais ===
+
+Dataset: Digits (scikit-learn)
+Número total de amostras: 1797
+Dimensão dos dados de entrada: 64
+Número de classes: 10
+
+Divisão do dataset:
+  Treinamento: 1257 amostras
+  Validação: 270 amostras
+  Teste: 270 amostras
+
+Comparação dos Modelos:
+
+MLP Simples (1 camada oculta (100 neurônios)):
+  Número de parâmetros: 7510
+  Acurácia no teste: 0.9704
+  Tempo de treinamento: 15.15 segundos
+  Épocas de treinamento: 88
+
+MLP Profunda (3 camadas ocultas (128-64-32 neurônios)):
+  Número de parâmetros: 19882
+  Acurácia no teste: 0.9852
+  Tempo de treinamento: 13.26 segundos
+  Épocas de treinamento: 50
+
+CNN Simples (1 camada convolucional (32 filtros)):
+  Número de parâmetros: 33802
+  Acurácia no teste: 0.9815
+  Tempo de treinamento: 9.87 segundos
+  Épocas de treinamento: 41
+
+CNN Profunda (2 camadas convolucionais (32-64 filtros)):
+  Número de parâmetros: 152202
+  Acurácia no teste: 0.9926
+  Tempo de treinamento: 23.48 segundos
+  Épocas de treinamento: 48
+
+MLP com SGD (1 camada oculta (100 neurônios)):
+  Número de parâmetros: 7510
+  Acurácia no teste: 0.9741
+  Tempo de treinamento: 11.14 segundos
+  Épocas de treinamento: 65
+
+
+Melhor modelo: CNN Profunda com acurácia de 0.9926
