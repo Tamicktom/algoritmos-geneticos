@@ -1,0 +1,16 @@
+Resultados do ACO para Berlin52 TSP
+=====================================
+
+Configurações utilizadas:
+- Número de formigas: 50
+- Número de iterações: 500
+- Alpha (influência feromônio): 1.0
+- Beta (influência heurística): 2.0
+- Rho (taxa evaporação): 0.1
+- Q (constante deposição): 100.0
+
+Resultados:
+- Melhor distância encontrada: 7659.25
+- Melhor caminho: [23, 20, 50, 16, 46, 44, 34, 35, 36, 39, 40, 37, 38, 48, 24, 5, 15, 6, 4, 25, 12, 28, 27, 26, 47, 14, 13, 52, 11, 51, 33, 43, 10, 9, 8, 41, 19, 45, 32, 49, 1, 22, 31, 18, 3, 17, 21, 42, 7, 2, 30, 29]
+- Distância inicial: 13361.65
+- Melhoria obtida: 42.68%
